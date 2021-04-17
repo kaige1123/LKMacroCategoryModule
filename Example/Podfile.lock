@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LKMacroCategoryModule (1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LKMacroCategoryModule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  LKMacroCategoryModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LKMacroCategoryModule: ba028e0a31ac596a670bb52419529b34859a19a4
+
+PODFILE CHECKSUM: e45686874bd42ea4c4a8c68b06e334d5b0cec038
+
+COCOAPODS: 1.10.1

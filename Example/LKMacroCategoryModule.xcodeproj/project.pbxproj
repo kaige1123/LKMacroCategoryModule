@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07CA5B7A6880D0A13BAE59D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		07CA5B7A6880D0A13BAE59D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		3167F88E6D37ECEE6F96F741 /* Pods_LKMacroCategoryModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKMacroCategoryModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		321F695DA4551AA1E8D4D89B /* Pods-LKMacroCategoryModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKMacroCategoryModule_Example.release.xcconfig"; path = "Target Support Files/Pods-LKMacroCategoryModule_Example/Pods-LKMacroCategoryModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		38E64AB405DF02E14E5E4D92 /* LKMacroCategoryModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LKMacroCategoryModule.podspec; path = ../LKMacroCategoryModule.podspec; sourceTree = "<group>"; };
+		38E64AB405DF02E14E5E4D92 /* LKMacroCategoryModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LKMacroCategoryModule.podspec; path = ../LKMacroCategoryModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* LKMacroCategoryModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKMacroCategoryModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		872BAB663512E0A01045ABD8 /* Pods-LKMacroCategoryModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKMacroCategoryModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-LKMacroCategoryModule_Tests/Pods-LKMacroCategoryModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		920ACD21B54F9EABEAF6E9BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		920ACD21B54F9EABEAF6E9BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BD001FD7361A1B71F21A6FCE /* Pods_LKMacroCategoryModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKMacroCategoryModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCC6651D3F78B13848000AF /* Pods-LKMacroCategoryModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKMacroCategoryModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-LKMacroCategoryModule_Example/Pods-LKMacroCategoryModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +103,6 @@
 				6D246DC6203CABDBA2C492B3 /* Pods-LKMacroCategoryModule_Tests.debug.xcconfig */,
 				872BAB663512E0A01045ABD8 /* Pods-LKMacroCategoryModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

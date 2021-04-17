@@ -1,0 +1,6 @@
+framework module Pods_LKMacroCategoryModule_Example {
+  umbrella header "Pods-LKMacroCategoryModule_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
